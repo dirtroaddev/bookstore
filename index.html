@@ -8,7 +8,27 @@
 </head>
 <body>
     <h1>My Library</h1>
-    <div id="libraryDisplay"></div>
+    <div id="libraryDisplay">
+        <ul id="ulDisp"></ul>
+    </div>
+
+    <form id="submitBtn">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required>
+        <label for="author">Author:</label>
+        <input type="text" name="author" >
+        <label for="pages">Pages:</label>
+        <input type="number" name="pages" >
+        <label for="read">Read:</label>
+        <input type="text" name="read" placeholder="Please put "read" or "not read">
+        <button type="submit" id="addBookBtn">Add Book</button>
+
+
+    </form>
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
